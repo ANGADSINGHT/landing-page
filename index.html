@@ -12,6 +12,24 @@
 ::-webkit-scrollbar-thumb {
   background: #888; 
 }
+
+.navbar {
+  background-color: #212529;
+}
+.navbar a{
+  color: #fff;
+  background-color: #212529;
+}
+.navbar-toggler-custom {
+    padding: 10px;
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: transparent;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
 </style>
 <head>
     <meta charset="UTF-8">
@@ -28,23 +46,23 @@
     <link rel="icon" href="https://fissionhost.org/logo.png" type="image/icon type">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <nav class="navbar">
         <div class="container">
             <a class="navbar-brand" href="#">FissionHost</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler-icon"></span></button>
+            <button class="navbar-toggler-custom" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Home</a>
+                        <a href="#" class="nav-link"><FONT COLOR=white>Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#about" class="nav-link">About</a>
+                        <a href="#about" class="nav-link"><FONT COLOR=white>About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://panel.fissionhost.org" class="nav-link">Go to panel</a>
+                        <a href="https://panel.fissionhost.org" class="nav-link"><FONT COLOR=white>Go to panel</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Rent a server</a>
+                        <a href="#" class="nav-link"><FONT COLOR=white>Rent a server</a>
                     </li>
                 </ul>
             </div>
